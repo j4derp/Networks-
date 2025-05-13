@@ -33,7 +33,7 @@
   height: 0.5vw;
   width: 50vw;
   margin-top: 8px;
-  background: #D5889E;
+  background: #102a43;
 
 }
 
@@ -85,7 +85,7 @@ nav ul {
 
 nav ul li a {
   text-decoration: none;
-  color: #D5889E; 
+  color: #102a43; 
   font-size: 0.8em;
   transition: all 0.3s ease;
   border: 2px solid #c48093;
@@ -98,7 +98,7 @@ nav ul li a {
 
 nav ul li a:hover {
   color: #fff;
-  background-color: #D5889E;
+  background-color: #bcccdc;
   border-color: #345e7d;
   transform: scale(1.05);
   text-decoration: underline;
@@ -137,7 +137,7 @@ br {
 }
 
 .components-nav h2 {
-  color: #345e7d;
+  color: #829ab1;
   margin-bottom: 15px;
   text-align: center;
 }
@@ -149,7 +149,7 @@ br {
 }
 
 .component-box {
-  background-color: #345e7d;
+  background-color: #829ab1;
   border: 2px solid #c48093;
   padding: 12px;
   border-radius: 8px;
@@ -161,7 +161,7 @@ br {
 }
 
 .component-box:hover {
-  background-color: #233e52;
+  background-color: #829ab1;
   transform: translateX(5px);
   box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
@@ -177,7 +177,7 @@ br {
 }
 
 .component-content h2 {
-  color: #345e7d;
+  color: #486581;
   margin: 20px 0;
 }
 
@@ -204,7 +204,7 @@ br {
 }
 
 .components-nav h2 {
-    color: #D5889E;
+    color: #486581;
   margin-bottom: 15px;
   text-align: center;
 }
