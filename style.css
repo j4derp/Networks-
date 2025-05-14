@@ -150,7 +150,7 @@ br {
 
 .component-box {
   background-color: #829ab1;
-  border: 2px solid #c48093;
+  border: 2px solid #f2c9d3;
   padding: 12px;
   border-radius: 8px;
   color: white;
@@ -217,10 +217,10 @@ br {
 
 .component-box {
  background-color: transparent;
-  border: 2px solid #c48093;
+  border: 2px solid #829ab1;
   padding: 12px;
   border-radius: 8px;
-   color: #D5889E; 
+   color: #f2c9d3; 
   text-align: center;
   font-weight: bold;
   transition: all 0.3s ease;
@@ -228,7 +228,7 @@ br {
 }
 
 .component-box:hover {
-   background-color: #D5889E;
+   background-color: #f2c9d3;
   transform: translateX(5px);
   box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
