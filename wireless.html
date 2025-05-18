@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" href="style.css">
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ <link href="https://fonts.googleapis.com/css?family=Ruge+Boogie:regular" rel="stylesheet" />
+ <link href="https://fonts.googleapis.com/css?family=Playwrite+AU+SA:100,200,300,regular" rel="stylesheet" />
+ <title>Operating Systems</title>
+
+
+</head>
+<body>
+<div class="container">
+ <div class="content">
+<img src="Logo.jpg" class="logo">
+  <hr>
+     <div class="container2">
+         <nav>
+             <ul>
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="main.html">Main</a></li>
+                 <li><a href="Summary.html">Summary</a></li>
+             </ul>
+         </nav>
+     </div>
+ <div class="page-container">
+     <div class="components-nav">
+        <h2>Options:</h2>
+        <a href="network.html" class="component-link">
+            <div class="component-box">Networking Overview</div>
+        </a>
+        <a href="wired.html" class="component-link">
+            <div class="component-box">Wired Network</div>
+        </a>
+        <a href="wireless.html" class="component-link">
+            <div class="component-box">Wireless Networks</div>
+        </a>
+     </div>
+  <br>
+      <div class="component-content">
+            <h1>Networking Overview</h1>
+            <div class="info-section">
+                <h2> Introduction</h2>
+<p>A network is a group of interconnected computers and devices that can share information with each other. 
+ Networks can range in size from two devices up to the largest network in the world, the internet.</p>          
+                 <div class="feature-list">
+                <h2>Networking Components</h2>         
+<p>Multiple components are required to set up and configure a network. These components include:</p>                
+                  <ul>
+<li><b>Devices-</b> Devices can include a computer, tablet, mobile phone, gaming console, IoT device, and server. The devices are typically referred to as network nodes or hosts.</li>
+<li><b>Transmission medium -</b> The transmission medium connects network devices. Examples include twisted pair cabling, fiber optics, and wireless radio signals.</li>
+<li><b>Network interface (NIC) -</b>The network interface converts the digital data into a signal that can be transmitted along the transmission medium. </li>
+<li>You can use domains to manage computers within the domain network. Changes made in the domain are automatically applied to all computers within the domain.</li>
+<li>Specialized devices are used to connect host devices together. These connection devices include: 
+<ul>
+ <li>Routers to connect multiple networks together.</li>
+ <li>Switches to connect multiple computers inside of a network together.</li>
+ <li>Access point to connect wireless network hosts.</li>
+</ul>
+</li>
+<li><b>Networking protocols -</b> These are standards that define how data is formatted and how the network hosts will talk to each other.</li>
+ </ul>
+       <h2>Network addressing</h2>
+<p>Every device on a network requires a unique address. 
+ The Internet Protocol version 4 (IPv4) formats the unique 
+ address using four octets that are each separated by a period. 
+ The IPv4 address is split into two components:</p>             
+                  <ul>
+<li>The network ID defines the network address. Every host on the device has the same network ID.</li>
+<li>The host ID is a unique value that is different for each device.</li>
+                  </ul>
+<p>The subnet mask defines the octets that belong to the network ID and the octets that belong to the host ID.
+ The standard subnet mask consists of four octets that match to each octet in the IPv4 address.
+ Each octet in the subnet mask consists of two values, usually 255 or 0, but not always. 
+ Octets with 255 represent the network ID and 0’s represents the host ID. For example:</p>
+<ul>
+ <li>The IP address 192.168.0.5 with a subnet mask of 255.255.0.0 shows that the first two octets in the IP address are the network ID and the last two octets are the host ID.</li>
+</ul> 
+<p>Often, a large network is split into smaller networks called subnets.
+ The subnet mask defines which network a host belongs to. 
+ Two devices need to be on the same subnet to communicate. 
+ If they are on different subnets, the traffic has to be sent through a router which will forward it onto the other network.</p>
+                  
+                 <h2>Networking benefits</h2>
+<p>Despite the costs of implementation and maintenance, networks save organizations money by allowing them to:</p>        
+ <ul>
+<li>Consolidate (centralize) data storage.</li>
+<li>Share peripheral devices such as printers.</li>
+<li>Increase internal and external communications.</li>
+<li>Increase productivity and collaboration.</li>
+<li>Provide a centralized management location for user accounts and security.</li>
+<li>Allow a network technician to remotely troubleshoot issues.</li>
+ </ul>
+                  
+<h2>Network types</h2>
+<p>There are several ways to classify networks. The following table describes several of these ways.</p>       
+<h3>Host role(peer-to-peer)</h3>
+   <p>In a peer-to-peer network, each host can provide network resources to other hosts or access resources located on other hosts. 
+    Each host controls access to the resources located on it.
+</p>
+<h3>Host role(client-service)</h3>
+   <p>In a client-server network, hosts have specific roles. For example, some hosts are assigned server roles, which allow them to provide network resources to other hosts.
+    Other hosts are assigned client roles, which allow them to consume network resources.</p>
+<h3>Host role(client-service)</h3>
+<h2>Geography</h2>
+  <h3>Body area network (BAN)	</h3>
+     <p>A body area network is a very small network that consists of wearable or implanted devices such as a smart watch, fitness trackers, or medical implants.
+</p>
+
+   <h3>Personal area network (PAN)	</h3>
+      <p><i>A personal area network is a very small network used for communication between personal devices.</i>
+
+       <br>
+For example, a PAN may include a pair of wireless earbuds and a smartphone. A PAN is limited to a few feet in range. A PAN is typically created using Bluetooth wireless technologies.</p>
+  <h3>Local area network (LAN)	</h3>
+       <p>A local area network is a network in a small geographic area, like an office. A LAN typically uses wires to connect systems together.</p>
+
+<h3>Metropolitan area network (MAN)	</h3>
+<p>A metropolitan area network is a network that covers an area as small as a few city blocks to as large as an entire metropolitan city. MANs are typically owned and managed by a city as a public utility.
+<br>
+Be aware that many IT professionals do not differentiate between a wide area network and a MAN, because both use most of the same network technologies.</p>
+                                                                                         
+
+
+                         <h2>Video!</h2>
+  <video width="500px" height="400px" controls>
+        <source src="networking (1).mp4" type="video/mp4">
+    </video>
+                 </div>
+       
+            </div>
+   
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>
+ <div class="sidebar"></div>
+</div>
+</body>
+</html>
