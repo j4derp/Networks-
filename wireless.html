@@ -58,82 +58,43 @@ Wireless networks use specific radio frequency ranges that are regulated by the 
         </ul>
                  <div class="feature-list">
                 <h2>Hardware Needed</h2>         
-<p>Multiple components are required to set up and configure a network. These components include:</p>                
-                  <ul>
-<li><b>Devices-</b> Devices can include a computer, tablet, mobile phone, gaming console, IoT device, and server. The devices are typically referred to as network nodes or hosts.</li>
-<li><b>Transmission medium -</b> The transmission medium connects network devices. Examples include twisted pair cabling, fiber optics, and wireless radio signals.</li>
-<li><b>Network interface (NIC) -</b>The network interface converts the digital data into a signal that can be transmitted along the transmission medium. </li>
-<li>You can use domains to manage computers within the domain network. Changes made in the domain are automatically applied to all computers within the domain.</li>
-<li>Specialized devices are used to connect host devices together. These connection devices include: 
-<ul>
- <li>Routers to connect multiple networks together.</li>
- <li>Switches to connect multiple computers inside of a network together.</li>
- <li>Access point to connect wireless network hosts.</li>
+<p>To build and maintain a wireless network, you typically need:</p>              
+               <ul>
+  <li><strong>Wireless Access Points (WAPs):</strong> Devices that broadcast the wireless signal.</li>
+  <li><strong>Wireless Routers:</strong> Combine routing and wireless access functions.</li>
+  <li><strong>Wireless Network Interface Cards (NICs):</strong> Allow client devices to connect to the wireless network.</li>
+  <li><strong>Antennas:</strong> Internal or external, used to extend or direct signal coverage.</li>
+  <li><strong>RADIUS Server (for enterprise networks):</strong> Manages authentication, authorization, and accounting.</li>
+  <li><strong>Firewalls:</strong> Provide protection against unauthorized access.</li>
+  <li><strong>Switches and Ethernet Cabling (optional):</strong> For connecting WAPs in larger or enterprise setups.</li>
 </ul>
-</li>
-<li><b>Networking protocols -</b> These are standards that define how data is formatted and how the network hosts will talk to each other.</li>
- </ul>
-       <h2>Network addressing</h2>
-<p>Every device on a network requires a unique address. 
- The Internet Protocol version 4 (IPv4) formats the unique 
- address using four octets that are each separated by a period. 
- The IPv4 address is split into two components:</p>             
-                  <ul>
-<li>The network ID defines the network address. Every host on the device has the same network ID.</li>
-<li>The host ID is a unique value that is different for each device.</li>
-                  </ul>
-<p>The subnet mask defines the octets that belong to the network ID and the octets that belong to the host ID.
- The standard subnet mask consists of four octets that match to each octet in the IPv4 address.
- Each octet in the subnet mask consists of two values, usually 255 or 0, but not always. 
- Octets with 255 represent the network ID and 0’s represents the host ID. For example:</p>
-<ul>
- <li>The IP address 192.168.0.5 with a subnet mask of 255.255.0.0 shows that the first two octets in the IP address are the network ID and the last two octets are the host ID.</li>
-</ul> 
-<p>Often, a large network is split into smaller networks called subnets.
- The subnet mask defines which network a host belongs to. 
- Two devices need to be on the same subnet to communicate. 
- If they are on different subnets, the traffic has to be sent through a router which will forward it onto the other network.</p>
-                  
-                 <h2>Networking benefits</h2>
-<p>Despite the costs of implementation and maintenance, networks save organizations money by allowing them to:</p>        
- <ul>
-<li>Consolidate (centralize) data storage.</li>
-<li>Share peripheral devices such as printers.</li>
-<li>Increase internal and external communications.</li>
-<li>Increase productivity and collaboration.</li>
-<li>Provide a centralized management location for user accounts and security.</li>
-<li>Allow a network technician to remotely troubleshoot issues.</li>
- </ul>
-                  
-<h2>Network types</h2>
-<p>There are several ways to classify networks. The following table describes several of these ways.</p>       
-<h3>Host role(peer-to-peer)</h3>
-   <p>In a peer-to-peer network, each host can provide network resources to other hosts or access resources located on other hosts. 
-    Each host controls access to the resources located on it.
-</p>
-<h3>Host role(client-service)</h3>
-   <p>In a client-server network, hosts have specific roles. For example, some hosts are assigned server roles, which allow them to provide network resources to other hosts.
-    Other hosts are assigned client roles, which allow them to consume network resources.</p>
-<h3>Host role(client-service)</h3>
-<h2>Geography</h2>
-  <h3>Body area network (BAN)	</h3>
-     <p>A body area network is a very small network that consists of wearable or implanted devices such as a smart watch, fitness trackers, or medical implants.
-</p>
-
-   <h3>Personal area network (PAN)	</h3>
-      <p><i>A personal area network is a very small network used for communication between personal devices.</i>
-
-       <br>
-For example, a PAN may include a pair of wireless earbuds and a smartphone. A PAN is limited to a few feet in range. A PAN is typically created using Bluetooth wireless technologies.</p>
-  <h3>Local area network (LAN)	</h3>
-       <p>A local area network is a network in a small geographic area, like an office. A LAN typically uses wires to connect systems together.</p>
-
-<h3>Metropolitan area network (MAN)	</h3>
-<p>A metropolitan area network is a network that covers an area as small as a few city blocks to as large as an entire metropolitan city. MANs are typically owned and managed by a city as a public utility.
-<br>
-Be aware that many IT professionals do not differentiate between a wide area network and a MAN, because both use most of the same network technologies.</p>
-                                                                                         
-
+       <h2>Pros and Cons</h2>
+<table>
+    <tr>
+      <th><strong>Pros</strong></th>
+      <th><strong>Cons</strong></th>
+    </tr>
+    <tr>
+      <td><strong>Mobility</strong> – Users can move freely while staying connected</td>
+      <td><strong>Signal Interference</strong> – Other devices or walls can degrade performance</td>
+    </tr>
+    <tr>
+      <td><strong>Easy Installation</strong> – No need for extensive cabling</td>
+      <td><strong>Lower Speed/Reliability</strong> – Typically slower and less stable than wired</td>
+    </tr>
+    <tr>
+      <td><strong>Scalability</strong> – Easier to expand coverage by adding access points</td>
+      <td><strong>Security Risks</strong> – Susceptible to eavesdropping if not properly secured</td>
+    </tr>
+    <tr>
+      <td><strong>Flexibility</strong> – Ideal for locations where wiring is impractical</td>
+      <td><strong>Range Limitations</strong> – Performance drops significantly over distance</td>
+    </tr>
+    <tr>
+      <td><strong>Cost Savings</strong> – Reduces need for physical infrastructure</td>
+      <td><strong>Shared Medium</strong> – Multiple users on the same channel can cause congestion</td>
+    </tr>
+  </table>
 
                          <h2>Video!</h2>
   <video width="500px" height="400px" controls>
