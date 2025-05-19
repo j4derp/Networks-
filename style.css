@@ -220,7 +220,7 @@ br {
   border: 2px solid #829ab1;
   padding: 12px;
   border-radius: 8px;
-   color: #f2c9d3; 
+   color: #102a43; 
   text-align: center;
   font-weight: bold;
   transition: all 0.3s ease;
@@ -228,7 +228,7 @@ br {
 }
 
 .component-box:hover {
-   background-color: #f2c9d3;
+   background-color: #486581;
   transform: translateX(5px);
   box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
